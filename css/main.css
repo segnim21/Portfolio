@@ -1,0 +1,13 @@
+/* Main CSS for project*/
+@import url('base/_variable.css');
+@import url('base/_reset.css');
+@import url('base/_typography.css');
+
+@import url('components/_buttons.css');
+@import url('components/_navbar.css');
+@import url('components/_cards.css');
+
+
+@import url('sections/_hero.css');
+@import url('sections/_projects.css');
+@import url('sections/_footer.css');
