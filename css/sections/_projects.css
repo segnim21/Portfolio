@@ -1,0 +1,17 @@
+.projects {
+    padding: 5rem 1.5rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+.section-subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+}
