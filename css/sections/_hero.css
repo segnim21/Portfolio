@@ -1,0 +1,47 @@
+.hero {
+    min-height: calc(100vh - 75px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 700px;
+}
+.badge {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    background-color: var(--badge-bg);
+    color: var(--accent);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom:  1.5rem;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+.hero h1 .highlight {
+    color: var(--accent);
+}
+.hero h2 {
+    font-size: 1.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+.hero p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
