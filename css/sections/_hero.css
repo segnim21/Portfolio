@@ -45,3 +45,55 @@
     gap: 1rem;
     justify-content: center;
 }
+
+.contact {
+    padding: 5rem 1.5rem;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-description {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+.contact-cta {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: #090d26;
+    padding: 2rem 1.5rem;
+    margin-top: 3rem;
+}
+
+.footer-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.25rem;
+}
+.social-links a {
+    columns: var(--text-nav);
+    font-size: 0.9rem;
+transition: var(--transition);}
+
+.social-links a:hover {
+    color: var(--accent);
+}
